@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "tipografia";
+    src: url("Breaking\ Bad.ttf");
+  }
+
+/*Estilos de los cuerpos*/
+.index{
+    text-align: center;
+    background-image: url('breaking bad/fondo.jpg');
+    background-size: cover;
+    font-family: "tipografia";
+}
+.formulario{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.periodica{
+    background: #0c3e11;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+.periodica h2{
+    font-size: 40px;
+    margin: 0;     
+}
+.periodica p{
+    font-size: 10px;
+}
+
+/* Estilos index*/
+.title{
+    color: white;
+}
+.poster{
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+
+/* Estilos formulario*/
+form {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+
+}
+.datos_personales ul {
+    list-style: none;
+}
+
+.datos_personales li {
+    display: grid;
+    grid-template-columns: 20% 30%; 
+    margin-bottom: 10px;
+}
+
+.datos_personales label {
+    text-align: left;
+}
+textarea{
+    width: 100%;
+}
+.button{
+    text-align: center;
+    word-spacing: 2em;
+}
+
+/*Estilos tabla periodica*/
+table {
+  table-layout: fixed;
+}
+
+.tabla1{
+    margin: 0 auto;
+    background: black;
+}
+.tabla1 td{
+    border: 3px solid black;
+    width: 100px;
+    height: 40px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.HA img{   
+    width: 100%;         
+          
+    
+}
+.Gcelda1{
+    background-color: #b8db1b;
+}
+.Gcelda2{
+    background-color: #d4eb6b;
+}
+.Gcelda3{
+    background-color: #ab8fcc;
+}
+.Gcelda4{
+    background-color: #eef6c5;
+}
+.Gcelda5{
+    background-color: #89a418;
+}
+.Gcelda6{
+    background-color: #627121;
+}
+.Gcelda7{
+    background-color: #c5e349;
+}
+.Gcelda8{
+    background-color: #bbc3a4;
+}
+.Gcelda9{
+    background-color: #818c50;
+}
+.tabla2{
+    background-color:  black;
+    margin: 20px auto 0;
+    
+}
+.tabla2 td{
+    background-color: #c3c629;
+    border: 3px solid black;
+    width: 80px;
+    height: 66px;
+
+}
+
+
